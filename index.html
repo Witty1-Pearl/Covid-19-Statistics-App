@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/plug-ins/1.10.20/features/scrollResize/dataTables.scrollResize.min.js">
+    <title>Covid-19 Sprint Project</title>
+
+</head>
+<body>
+        
+    <h1 class="text-center">CODEBITS COVID-19 STATISTICS DASHBOARD</h1>
+    <div class="container">
+        <div class="row">
+    <div class="col-md-3 ">
+        <h2 class="text-center">Total Confirmed</h2>
+        <table class="table"  id="total">
+        </table>
+     </div>
+     <div class="col-md-6">
+         <img src="images/coronavirus_spread.JPG" alt="Corona-Virus">
+    </div>
+    <div class="col-md-3 ">
+        <h2 class="text-center">Total Tested In Nigeria</h2>
+        <table class="table"  id="test">
+        </table>
+    </div>
+    </div>
+    </div>
+    <div >
+        <section class="container">
+            <div class="row" >
+            <div class="col-md-12">
+                <h2 class="text-center mt-4">Cummulative Confirmed Cases</h2>
+            <table class="table table-striped display" id="list">
+                <thead>
+                    <tr class="t-row">
+                    <th scope="col">Country</th>
+                    <th scope="col">Country Code</th>
+                    <th scope="col">Slug</th>
+                    <th scope="col">New Confirmed</th>
+                    <th scope="col">Total Confirmed</th>
+                    <th scope="col" class="t-head">New Deaths</th>
+                    <th scope="col" class="t-head">Total Deaths</th>
+                    <th scope="col">New Recovered</th>
+                    <th scope="col" class="t-head">Total Recovered</th>                  
+                    <th scope="col" class="t-head">Date</th>
+                    </tr>
+                </thead>
+
+                <tbody id="output">
+                    
+                </tbody>
+
+            </table>
+            </div>
+            </div>
+
+        </section>
+    </div>
+    
+    
+<script src="https://kit.fontawesome.com/3da1a74762.js"></script>
+<script src="jquery-1.11.3.min/jquery-1.11.3.min.js"></script>
+<script src="/js/covid.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.10.20/features/scrollResize/dataTables.scrollResize.min.js"></script>
+</body>
+</html>
