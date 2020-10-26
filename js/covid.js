@@ -1,4 +1,4 @@
-getdetails()
+document.addEventListener("DOMContentLoaded", getdetails);
 fetch('https://api.covid19api.com/summary')
 .then(function(res){
     return (res.json());
