@@ -21,25 +21,25 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
                 </tr>
             </thead>
             <thead>
-            <tr class="text-danger">
+            <tr class="text-warning">
                     <th scope="col">New Deaths</th>
                     <td>${input.NewDeaths}</td>
                 </tr>
             </thead>
             <thead>
-                <tr class="text-danger">
+                <tr class="text-warning">
                     <th scope="col">Total Deaths</th>
                     <td>${input.TotalDeaths}</td>
                 </tr>
             </thead>
             <thead>
-                <tr class="text-succes">
+                <tr class="text-danger">
                     <th scope="col">New Recovered</th>
                     <td>${input.NewRecovered}</td>
                 </tr>
             </thead>
             <thead>
-                <tr class="text-success">
+                <tr class="text-danger">
                     <th scope="col">Total Recovered</th>
                     <td>${input.TotalRecovered}</td>
                 </tr>
@@ -70,7 +70,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
                 </tr>
             </thead>
             <thead>
-                <tr class="text-danger">
+                <tr class="text-warning">
                     <th scope="col">Deaths</th>
                     <td>${inputs.Deaths}</td>
                 </tr>
@@ -82,7 +82,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
                 </tr>
             </thead>
             <thead>
-                <tr class="text-danger">
+                <tr class="text-warning">
                     <th scope="col">Date</th>
                     <td>${inputs.Date}</td>
                 </tr>
