@@ -1,6 +1,46 @@
-body{
+.container-fluid{
 	background-color: darkgrey;
+	background-image: url(../images/world.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	position:relative;
 	
+	
+}
+
+.container{
+	background-color: rgb(170, 162, 46);
+}
+
+.text-center{
+	color: black;
+	background-color: whitesmoke;
+}
+
+.text_center{
+	color: blanchedalmond;
+}
+
+.s1-group .text-center .header{
+	color: black;
+}
+
+.back-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.801);
+
+}
+
+.s1-group{
+	position:relative;
+	z-index:3;
 }
 
 textarea{

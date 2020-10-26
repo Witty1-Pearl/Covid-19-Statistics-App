@@ -93,7 +93,7 @@ fetch('https://api.covid19api.com/summary')
 
   
 function getdetails(){
-fetch('https://api.covid19api.com/summary')
+fetch('https://api.covid19api.com/summary') 
 .then(function(res){
     return (res.json());
 })
