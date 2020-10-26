@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", getdetails);
-fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
+fetch('https://api.covid19api.com/summary')
 .then(function(res){
     return res.json();
 })
@@ -49,7 +49,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
     });
 
 
-    fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/country/nigeria')
+    fetch('https://api.covid19api.com/country/nigeria')
 .then(function(res){
     return (res.json());
 })
@@ -93,7 +93,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
 
   
 function getdetails(){
-fetch('https://cors-anywhere.herokuapp.com/https://api.covid19api.com/summary')
+fetch('https://api.covid19api.com/summary')
 .then(function(res){
     return (res.json());
 })
