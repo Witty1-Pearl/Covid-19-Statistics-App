@@ -100,15 +100,11 @@ fetch('https://api.covid19api.com/summary')
 .then(function(data){
     let output = '';
     $(document).ready(function() {
-var table = $('#list').DataTable();
+$('#list').DataTable();
 $('#list tbody').on( 'click', 'tr', function () {
 $(this).toggleClass('selected');
 } );
 
-
-$('#button').click( function () {
-alert( table.rows('.selected').data().length +' row(s) selected' );
-} );
 } );
     data.Countries.forEach(function(user){
         output += `
